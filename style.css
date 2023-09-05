@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400;800&display=swap');
+
+body {
+    background: linear-gradient(#bda5e9, #5998c5);
+    font-family: 'Happy Monkey', cursive;
+    color: #000;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    text-shadow: 0 0 1px #5998c5;
+}
+
+#terminator-img {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #5998c5;
+    margin-bottom: 10px;
+}
+
+#age {
+    background: #5998c5;
+    padding: 5px 10px;
+    margin: 5px 0 10px 0;
+    border-radius: 5px;
+}
+
+#date {
+    background: #5998c5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin: 0;
+}
+
+.gift-img {    
+    margin: 20px auto 0 auto;
+    height: 400px;
+    width: 400px;
+    border: 6px solid #fff;
+    border-radius: 10px;
+    background-image: url("/img/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("/img/happy.gif");
+    background-size: 132%;
+}
+
+.course-plug a {
+    color: inherit;
+}
+
+
+#gift-img-react:hover {
+    background-image: url("/img/react.gif");
+    background-size: cover;
+}
+
+#gift-img-style:hover {
+    background-image: url("/img/style.gif");
+    background-size: cover;
+}
+
+#gift-img-badass:hover {
+    background-image: url("/img/badass.gif");
+    background-size: cover;
+}
+
+#gift-img-cheers {
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("/img/cheers.gif");
+    background-size: cover;
+}
