@@ -54,6 +54,8 @@ p {
     margin: 0;
 }
 
+/* Had to change all image asset paths from "/img/imageFormat.ext" to "./img/imgageFormat.ext" for it to work on Github Pages */
+
 .gift-img {    
     margin: 20px auto 0 auto;
     height: 400px;
@@ -65,7 +67,7 @@ p {
 }
 
 #gift-img-happy:hover {
-    background-image: url("/img/happy.gif");
+    background-image: url("./img/happy.gif");
     background-size: 132%;
 }
 
@@ -75,17 +77,17 @@ p {
 
 
 #gift-img-react:hover {
-    background-image: url("/img/react.gif");
+    background-image: url("./img/react.gif");
     background-size: cover;
 }
 
 #gift-img-style:hover {
-    background-image: url("/img/style.gif");
+    background-image: url("./img/style.gif");
     background-size: cover;
 }
 
 #gift-img-badass:hover {
-    background-image: url("/img/badass.gif");
+    background-image: url("./img/badass.gif");
     background-size: cover;
 }
 
@@ -95,6 +97,6 @@ p {
 }
 
 #gift-img-cheers:hover {
-    background-image: url("/img/cheers.gif");
+    background-image: url("./img/cheers.gif");
     background-size: cover;
 }
